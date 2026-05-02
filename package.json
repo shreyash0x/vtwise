@@ -1,7 +1,7 @@
 {
-  "name": "civicmind-ai",
+  "name": "votewise",
   "version": "1.0.0",
-  "description": "CivicMind AI – Intelligent Civic Participation Guide",
+  "description": "VoteWise — Intelligent Election Journey Assistant",
   "author": "shreyash0x",
   "scripts": {
     "dev": "concurrently \"npm run server\" \"npm run client\"",

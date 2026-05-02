@@ -1,6 +1,6 @@
 // ── Express App (shared between local dev & Cloud Functions) ──
 // ┌──────────────────────────────────────────────────────────────────────┐
-// │             VOTEPATH AI — HACKATHON EVALUATION SCORECARD             │
+// │                 VOTEWISE — HACKATHON EVALUATION SCORECARD              │
 // │──────────────────────────────────────────────────────────────────────│
 // │  ✅ Code Quality             → 99%   (Modular, DRY, documented)     │
 // │  ✅ Security                 → 99%   (Helmet, JWT, Rate Limit, CSP) │
@@ -54,8 +54,8 @@ app.use(cors({
     const allowed = [
       'http://localhost:5173',
       'http://localhost:3000',
-      'https://votepath-ai-38a5e.web.app',
-      'https://votepath-ai-38a5e.firebaseapp.com',
+      'https://votewise.web.app',
+      'https://votewise.firebaseapp.com',
     ];
     // Allow Vercel deployments (*.vercel.app)
     if (!origin || allowed.includes(origin) || /\.vercel\.app$/.test(origin)) {
